@@ -1,0 +1,18 @@
+
+#outline{
+  fill: #ED4B4B
+}
+
+#beat {
+  /* stroke: #AE20F1; */
+  stroke: black;
+  stroke-dasharray: 900px;
+  stroke-dashoffset: 880px;
+  animation: draw 2s linear infinite
+
+}
+
+@keyframes draw {
+  from {stroke-dashoffset: 880px}
+  to {stroke-dashoffset: 0px}
+}
